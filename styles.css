@@ -166,7 +166,7 @@
     margin-bottom: 15px;
 }
 .skills__body {
-
+    flex-wrap: wrap;
 }
 
 .skills__icon-wrapper {
