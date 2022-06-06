@@ -48,6 +48,10 @@
     padding-bottom: 30px;
     margin-bottom: 15px;
  }
+
+ .main-info {
+    gap: 50px;
+ }
  
  @media screen and (max-width: 576px) {
  
@@ -63,9 +67,14 @@
     .contact-info__block:not(:last-child) {
         margin-bottom: 20px;
     }
- 
+    
+    .main-info,
+    .additional-info {
+        gap: 30px;
+    }
+
     .experiences {
-        margin-right: 0;
+        border-bottom: 3px solid var(--border-color);
     }
  }
 
@@ -181,7 +190,6 @@
 /* Experience and additonal info styles */
 .experiences {
     flex: 1 1 60%;
-    margin-right: 50px;
 }
 
 .experiences__header {
