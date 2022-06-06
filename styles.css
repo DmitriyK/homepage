@@ -134,7 +134,8 @@
  }
 
  /* Intro and skills styles */
- .intro {
+ .intro,
+ .intro-hobby {
     display: flex;
     justify-content: start;
 }
